@@ -1,0 +1,32 @@
+<!-- page header-->
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h1>Hello nesting is working</h1>
+
+    <div class="row">
+
+      <!-- link to home/CIG logo -->
+      <div class="col-md-2 col-xs-1">
+
+        <a routerLink="/dashboard">
+          <img src="../assets/img/logo.png" class="img-responsive ">
+        </a>
+
+      </div>
+
+      <!-- dropdown menu for more options -->
+      <div class="col-md-3 col-xs-1 col-md-offset-7 col-xs-offset-3 dropdown">
+        <a role="button" class="btn btn-secondary btn-lg dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Login
+        </a>
+        <!-- options of the dropdown -->
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Customer</a>
+          <a class="dropdown-item" href="#">Agent</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
